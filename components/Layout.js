@@ -9,10 +9,17 @@ weight:['100','200','300','400','500','600','700','800'],
 });
 
 
-import Nav from '../components'
+import Nav from '../components/Nav'
+import Header from  '../components/Header'
+import TopLeftImg from  '../components/TopLeftImg'
 
 const Layout = ({children}) => {
-  return <div><Nav/></div>;
+  return <div>
+    <TopLeftImg/>
+    <Nav/>
+    <Header/>
+{children}
+    </div>;
 };
 
 export default Layout;
