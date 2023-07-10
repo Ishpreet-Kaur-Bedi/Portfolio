@@ -1,5 +1,7 @@
 // testimonial data
-const testimonialData = [
+
+export const testimonialSlider = [
+
   {
     image: '/t-avt-1.png',
     name: 'Anne Smith',

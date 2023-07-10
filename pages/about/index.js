@@ -1,5 +1,14 @@
-//  data
-const aboutData = [
+import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress } from 'react-icons/fa';
+import { SiNextdotjs, SiFramer } from 'react-icons/si';
+import { FaFigma } from 'react-icons/fa';
+import { SiAdobexd, SiAdobephotoshop } from 'react-icons/si';
+
+
+
+
+//  data 
+
+ export const aboutData = [
   {
     title: 'skills',
     info: [
