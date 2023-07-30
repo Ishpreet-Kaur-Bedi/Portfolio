@@ -15,7 +15,7 @@ const Projects = () => {
         {projects.map((project, i) => (
           <div
             key={i} // Added key prop with unique value
-            className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-20 md:p-44 h-screen'
+            className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center p-20 md:p-44 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7AB0A]/80  h-screen'
           >
             <motion.img
             initial={{
