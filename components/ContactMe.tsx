@@ -1,3 +1,7 @@
+'use client'
+
+
+
 import React from "react";
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";

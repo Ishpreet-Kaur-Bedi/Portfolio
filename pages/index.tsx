@@ -9,15 +9,19 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import ContactMe from '@/components/ContactMe'
 import Link from 'next/link'
+import ClientOnly from '@/components/ClientOnly'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
 <div className='bg-[rgb(36,36,36)] text-white  h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7AB0A]/80   '>
+
   <Head>
     <title> Ishpreet-Portfolio</title>
 
   </Head>
+
+  <ClientOnly>
 
 <Header/>
 
@@ -60,8 +64,10 @@ export default function Home() {
     src="" alt="" />
   </div>
 </footer>
-</Link>
 
+</Link>
+    
+</ClientOnly>
 </div>
 
     
