@@ -27,16 +27,16 @@ export default function Home() {
           <Header />
 
           <section id='hero' className='snap-start'>
-            {/* <Hero/> */}
+            <Hero/>
           </section>
 
           {/* About */}
           <section id='about' className='snap-center'>
-            {/* <About/> */}
+            <About/>
           </section>
           {/* Experience */}
           <section id='experience' className='snap-center'>
-            {/* <Experience/> */}
+            <Experience/>
           </section>
           {/* Skills */}
           <section id='skills' className='snap-start'>
@@ -45,12 +45,12 @@ export default function Home() {
 
           {/* Projects */}
           <section id='projects' className='snap-start'>
-            {/* <Projects/> */}
+            <Projects/>
           </section>
 
           {/* Contact Me */}
           <section id='contact' className='snap-start'>
-            {/* <ContactMe/> */}
+            <ContactMe/>
           </section>
 
           {/* Footer */}

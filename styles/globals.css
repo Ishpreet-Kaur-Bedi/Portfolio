@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .herobutton {
+        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all;
+
+        transition:
+        border-color 0.3s ease-in-out, /* Transition border color */
+        background-color 0.3s ease-in-out; /* Add any other properties you want to transition */
+
+
+        &:hover {
+            @apply border-[#F7AB0A]/40 text-[#f7AB0A]/40;
+        }
+
+}
+}
