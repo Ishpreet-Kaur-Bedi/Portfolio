@@ -7,13 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        // Define your custom colors here if needed
-        'f7AB0A': '#f7ab0a',
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-
     },
   },
-  plugins: [require('tailwind-scrollbar'),
-],
+  plugins: [],
 }
