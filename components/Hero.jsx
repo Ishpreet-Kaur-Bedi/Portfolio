@@ -32,7 +32,11 @@ const Hero = () => {
               <Button className ='gap-x-2'>Contact me<Send size={18}/></Button></Link>
               <Button variant='secondary' className ='gap-x-2'>Download Cv<Download size={18}/></Button>
             </div>
+            <Socials containerStyles =
+          'flex gap-x-6 mx-auto xl:mx-0'  />
           </div>
+         
+
           <div className="hidden xl:flex relative">image</div>
         </div>
         <div className="hidden md:flex absolute  left-2/4 bottom-44 xl:bottom-12 animate-bounce">
