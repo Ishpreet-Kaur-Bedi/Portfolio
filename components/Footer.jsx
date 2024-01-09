@@ -1,9 +1,19 @@
 import React from 'react'
+import Socials from './Socials'
+
 
 const Footer = () => {
   return (
-   <footer>
-    footer
+   <footer className='bg-secondary py-12'>
+    <div className="container mx-auto">
+      <div className='flex flex-col items-center justify-between '>
+        <Socials containerStyles='flex gap-x-6 mx-auto' iconStyles='text-primary text-[20px] dark:text-white/70 hover:text-white dark:hover:text-primary transition-all'/>
+        <div className='text-muted-foreground'>
+Made with love by Ishpreet
+        </div>
+      </div>
+    </div>
+   
    </footer>
   )
 }

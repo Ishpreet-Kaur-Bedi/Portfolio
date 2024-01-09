@@ -3,6 +3,7 @@ import About from '@/components/About'
 import Image from 'next/image'
 import Services from '@/components/Services'
 import Work from '@/components/Work'
+import CTA from '../components/CTA'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
    <About/>
    <Services/>
    <Work/>
+   <CTA/>
 
     
     
