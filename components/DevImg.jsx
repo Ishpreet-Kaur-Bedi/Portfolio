@@ -3,7 +3,7 @@ import React from 'react'
 const DevImg = () => {
   return (
     <div>
-      
+      devimg
     </div>
   )
 }

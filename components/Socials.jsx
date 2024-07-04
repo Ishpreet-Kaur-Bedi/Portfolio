@@ -2,12 +2,15 @@
 
 import Link from "next/link";
 import { RiFacebookBoxFill, RiGithubFill, RiInstagramFill, RiLinkedinFill, RiYoutubeFill } from 'react-icons/ri';
+import { SiLeetcode } from "react-icons/si";
+import { FaMedium } from "react-icons/fa6";
 
 const icons = [
   { path: '/youtube', name: <RiYoutubeFill /> },
-  { path: '/linkedin', name: <RiLinkedinFill /> },
-  { path: '/github', name: <RiGithubFill /> },
-  { path: '/facebook', name: <RiFacebookBoxFill /> },
+  { path: 'https://www.linkedin.com/in/ishpreet-kaur-bedi/', name: <RiLinkedinFill /> },
+  { path: 'https://github.com/Ishpreet-Kaur-Bedi', name: <RiGithubFill /> },
+  { path: 'https://leetcode.com/u/ishpreet27/', name: <SiLeetcode />
+  },
   { path: '/instagram', name: <RiInstagramFill /> },
 ];
 
