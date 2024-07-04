@@ -29,7 +29,7 @@ const Hero = () => {
 
             <h1 className="h1 mb-4">Hello, My name is Ishpreet Kaur</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief descriptopm pf myself
+              Navigating through the fields of tech industry, I am experienced web developer and AI-ML Enthusiast
             </p>
 
 
