@@ -12,17 +12,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 const ServicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Design",
+    title: "Web Develoment",
     description: "lorem ipsum ",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
-    title: "Web Development",
+    title: "DevOps",
     description: "lorem ipsum ",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "App development",
+    title: "Content Writing",
     description: "lorem ipsum ",
   },
 ];
